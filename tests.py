@@ -1,9 +1,10 @@
 import unittest
 from main import to_upper
-class MyTestCase(unittest.TestCase): def test_to_upper(self):
-name = "Tejaswi" 
+class MyTestCase(unittest.TestCase): 
+def test_to_upper(self):
+name = "Likhi" 
 upper_name = to_upper(name)
 self.assertEqual(upper_name, "Tejaswi")
 
-if 	name	== '	main	': unittest.main() 
+if __name	== '	main	': unittest.main() 
 
